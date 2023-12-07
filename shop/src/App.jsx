@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
+import "./pages/styles/App.css";
 import Shop from "./pages/Shoping.jsx";
 import Cart from "./pages/Cart.jsx";
 import Header from "./pages/Header.jsx";

@@ -11,7 +11,7 @@
 .nav-links{
     display: flex;
     justify-content: space-around;
-    width: 10%;
+   margin: 3%;
 }
 .links{
     list-style: none;
@@ -33,4 +33,5 @@
         height: 7svh;
         padding: 10px 0;
     }
+    
 }
