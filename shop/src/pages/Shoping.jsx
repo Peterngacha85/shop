@@ -4,7 +4,7 @@ import './styles/shop.css'
 const Shoping = () => {
   return (
     <div className='shop-container'>
-      <img src='/shop/public/images/belt.jpg' alt= 'vite image'/>
+      <img src='/shop/src/images/laptop.png' alt= 'phone ..image'/>
     </div>
   )
 }
