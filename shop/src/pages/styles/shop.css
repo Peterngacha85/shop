@@ -5,12 +5,39 @@
 }
 .shop-container{
     width: 100%;
-    height: 80svh;
-    display: flex;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
     align-items: center;
+    overflow-y: scroll; /* Enable vertical scroll */
 }
-.image-size{
-    width: 200px;
-    height: 200px;
+    
+.mapped-item{
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.image-container{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px  10px #646262;
+    padding: 20px ;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
 }

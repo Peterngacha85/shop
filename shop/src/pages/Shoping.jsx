@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './styles/shop.css'
 import data from '../data.jsx'
+import testImage from '../assets/images/bag.jpg'
 
 const Shoping = () => {
   const {productItem} =  data
@@ -9,8 +10,8 @@ const Shoping = () => {
   return (
     <div className='shop-container'>
       {productItem.map((item)=>(
-       <div key={item.id}>
-          <img src={import(`../assets/images/images${item.image}`).then((image) => image.default)}/>
+       <div className="image-container" key={item.id}>
+          <img className='image' src={testImage}/>
           <h3>{item.name}</h3>
           <h4>$ {item.price}</h4>
           <button>Add to cart</button>
