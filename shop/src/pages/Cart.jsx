@@ -1,8 +1,9 @@
 import React from 'react'
+import './styles/cart.css'
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <div className='cart-container'>Cart</div>
   )
 }
 

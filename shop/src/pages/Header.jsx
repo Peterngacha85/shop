@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <div className='header'>
         <div className='nav-links'>
-        <Link className='links' to="/Cart">Cart</Link>
+        <Link className='links' to="/Shop">Shop</Link>
         </div>
         <div className='nav-links'>
-        <Link className='links' to="/Shop">Shop</Link>
+        <Link className='links' to="/Cart">Cart</Link>
         </div>
     </div>
   )
