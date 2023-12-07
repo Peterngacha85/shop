@@ -3,7 +3,9 @@ import './styles/shop.css'
 
 const Shoping = () => {
   return (
-    <div className='shop-container'>Shoping cart available</div>
+    <div className='shop-container'>
+      <img src='/shop/public/images/belt.jpg' alt= 'vite image'/>
+    </div>
   )
 }
 
