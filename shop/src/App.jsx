@@ -11,10 +11,10 @@ function App() {
     <div className="app-container">
       <Header />
       <Switch>
-        <Route path="/shop">
+        <Route exact path="/Shop">
           <Shop />
         </Route>
-        <Route path="/cart">
+        <Route path="/Cart">
           <Cart />
         </Route>
       </Switch>

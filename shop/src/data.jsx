@@ -4,7 +4,7 @@ const data = {
         id: "1",
         name: "Laptop bag.",
         price: 550,
-        image: "images/belt.jpg",
+        image: "images/bag.jpg",
        },
        {
         id: "2",
